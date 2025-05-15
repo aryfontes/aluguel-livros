@@ -10,7 +10,7 @@ Este é um projeto fullstack para gerenciamento de aluguel de livros, desenvolvi
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [MySQL](https://www.mysql.com/) com [Prisma ORM](https://www.prisma.io/) *(opcional)*
+- [MySQL](https://www.mysql.com/)
 
 ### Frontend
 - [Next.js](https://nextjs.org/)
