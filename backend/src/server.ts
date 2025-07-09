@@ -55,7 +55,17 @@ app.post('/livros', (req: any, res: any) => {
   };
 
     livros.push(novoLivro);
-    res.status(201).json({ mensagem: 'Livro cadastrado com sucesso.', livro: novoLivro });
+    res.status(201).json({ mensagem: "Livro cadastrado com sucesso.", livro: novoLivro });
+})
+
+// DELETE /livros/:id → Remover um livro
+app.delete('/livros/:id', (req: any, res: any) => {
+
+    const id = Number(req.params.id);
+    const index = livros.findIndex((livro) => livro.id === id)
+    
+    livros.splice(index, 1)
+    res.status(201).json({mensagem: "Livro deletado com sucesso."})
 })
 
 app.listen(port, () => {
