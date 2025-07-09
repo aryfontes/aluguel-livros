@@ -1,4 +1,4 @@
-# 📚 Sistema de Aluguel de Livros
+# 📚 Sistema de Aluguel de Livros (em construção)
 
 Este é um projeto fullstack para gerenciamento de aluguel de livros, desenvolvido com **Node.js (backend)** e **Next.js (frontend)**. O objetivo é permitir que usuários possam cadastrar livros, alugá-los e acompanhar seu histórico de empréstimos.
 
